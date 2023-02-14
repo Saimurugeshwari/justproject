@@ -18,8 +18,8 @@ body{
     display:flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 800px;
-    width:105vh;
+    max-width: 1000px;
+    width:120vh;
     background: #fff;
     padding: 35px, 30px;
     margin: 25px;
@@ -50,20 +50,27 @@ body{
     width: 50%;
     height: 20%;
     border: 7px solid;
-     margin: auto; 
+    margin: auto; 
 }
 .Div-form #dropdown{
-    width: 48%;
+    width: 42%;
 }
-.Div-form #Gender{
-    width: 10px;
+ .Div-form #Gender{
+    width: 11px;
 }    
-.Div-form #form-label{
-    width:158px;  
-}
+/* .Div-form #form-label{
+    margin-right: 10px;
+}  */
 .Div-form #skills{
-    width: 9px;
+    width: 10px;
 }
-.Div-form #form-skills{
-    width: 100%;
+.skillclass{
+    display: flex;
+    justify-content:space-around;
+    width:170px;
+}
+.Gender-class{
+    display: flex;
+    justify-content:space-around;
+    width:180px;
 }
