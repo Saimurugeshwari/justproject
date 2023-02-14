@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Form Replicate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="#" id="contact-form">
+        <h2 class="title"> Contact Form</h2>
+        <div class="Div-form">
+            <label for="name">Name:</label>
+                <input id="name" type="text" name="name" placeholder="Enter your Name" required>
+        </div>
+        <div class="Div-form">
+            <label for="username">UserName:</label>
+                <input id="username" type="text" name="username" placeholder="Enter your username" required>   
+        </div>
+        <div class="Div-form">
+            <label for="password">Password:</label>
+                <input id="password" type="password" name="password" placeholder="Enter your Password" required>      
+        </div>
+        <div class="Div-form">
+            <label for="password" class="form-label">Re-type Password:</label>
+                <input id="password" type="password" name="password" placeholder="Re-type your Password" required>      
+        </div>
+        <div class="Div-form">
+            <label id="form-label">Gender:</label>
+                <input id="Gender" type="radio" checked>
+                <label for="Gender">Male</label> 
+                <input id="Gender" type="radio">
+                <label for="Gender">Female</label>     
+        </div>
+        <div class="Div-form">
+            <label id="form-skills">Techie Skills:</label>
+                <input id="skills" type="checkbox" checked>
+                <label for="skills"> HTML</label> 
+                <input id="skills" type="checkbox">
+                <label for="skills">CSS</label> 
+                <input id="skills" type="checkbox">
+                <label for="skills"> JavaScript</label>       
+        </div>
+        <div class="Div-form">
+            <label for="phone">Phone Number:</label>
+            <input id="phone" type="text" maxlength="10" name="phone" placeholder="Enter your phoneNumber" required>
+        </div>
+        <div class="Div-form">
+            <label for="Email">Email:</label>
+            <input = id="Email" type="Email" name="Email" placeholder="Enter your EmailAddress" required>
+        </div>
+        <div class="Div-form">
+            <lable for="college">College:</lable>
+            <select name="dropdown" id="dropdown" class="form" required>
+                <option>Select a college</option>
+                <option value="college1">Harvard</option>
+                <option value="college2">New York university</option>
+            </select>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+
+    </div>
+    </form>
+    
+</body>
+</html>
