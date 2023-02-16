@@ -22,7 +22,7 @@ body{
     width:120vh;
     background: #fff;
     padding: 35px, 30px;
-    margin: 25px;
+    margin: 50px;
     border-radius: 5px;
 }
 .container .title{
@@ -74,3 +74,7 @@ body{
     justify-content:space-around;
     width:180px;
 }
+
+
+
+
